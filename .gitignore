@@ -1,0 +1,41 @@
+rb/*.rbc
+rb/capybara-*.html
+rb/.rspec
+rb/db/*.sqlite3
+rb/db/*.sqlite3-journal
+rb/db/*.sqlite3-[0-9]*
+rb/public/system
+rb/coverage/
+rb/spec/tmp
+rb/*.orig
+rb/rerun.txt
+rb/pickle-email-*.html
+
+# Ignore all logfiles and tempfiles.
+rb/log/*
+rb/tmp/*
+rb/!/log/.keep
+rb/!/tmp/.keep
+
+# TODO Comment out this rule if you are OK with secrets being uploaded to the repo
+rb/config/initializers/secret_token.rb
+rb/config/master.key
+
+# Only include if you have production secrets in this file, which is no longer a Rails default
+# config/secrets.yml
+
+# dotenv, dotenv-rails
+# TODO Comment out these rules if environment variables can be committed
+rb/.env
+
+## Environment normalization:
+rb/.bundle
+rb/vendor/bundle
+
+# these should all be checked in to normalize the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+
+# Ignore uploaded files in development
+rb/storage/*
+/rb/!/storage/.keep
+rb/public/uploads
