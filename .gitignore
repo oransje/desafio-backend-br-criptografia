@@ -7,6 +7,7 @@ rb/db/*.sqlite3-[0-9]*
 rb/public/system
 rb/coverage/
 rb/spec/tmp
+rb/spec/examples.txt
 rb/*.orig
 rb/rerun.txt
 rb/pickle-email-*.html
