@@ -1,15 +1,18 @@
 #original code by @yukithm https://gist.github.com/yukithm/de7fcba1bea8a997554353e556031b51
 require "openssl"
 require "base64"
+require "singleton"
 
 class EncryptionService
+  include Singleton
+  
   CIPHER_ALGO = "AES-256-CBC"
   SALT_SIZE = 8
 
-  def initialize(password, algo = CIPHER_ALGO, salt_size = SALT_SIZE)
-    @password = password
-    @algo = algo
-    @salt_size = salt_size
+  def initialize
+    @password = Rails.configuration.crypto_password[:password]
+    @algo = CIPHER_ALGO
+    @salt_size = SALT_SIZE
   end
 
   def cipher(data)

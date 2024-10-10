@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe EncryptionService do
-  let(:password) { "password" }
-  let(:service) { described_class.new(password) }
+  let(:password) { "pass" }
+  let(:service) { described_class.instance }
 
   describe '.cipher' do
     it 'encrypts data' do
