@@ -1,0 +1,2 @@
+class CryptoDatum < ApplicationRecord
+end
