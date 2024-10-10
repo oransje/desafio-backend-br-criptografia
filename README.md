@@ -1,6 +1,6 @@
 # Cryptography challenge ruby version
 
-My solution to the challenge described [here](https://github.com/backend-br/desafios/blob/master/cryptography/PROBLEM.md). Check other problems and challenges (here)https://github.com/backend-br/desafios/tree/master. Special thanks to the backend-br.
+My solution to the challenge described [here](https://github.com/backend-br/desafios/blob/master/cryptography/PROBLEM.md). Check other problems and challenges [here](https://github.com/backend-br/desafios/tree/master). Special thanks to the backend-br.
 
 ## Setup
 
