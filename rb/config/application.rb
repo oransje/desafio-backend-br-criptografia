@@ -24,6 +24,7 @@ module Rb
 
     # Configuration for the application, engines, and railties goes here.
     #
+    config.crypto_password = config_for(:crypto_password)
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
     #
