@@ -1,6 +1,6 @@
 # Cryptography challenge ruby version
 
-Cryptographic api demonstration, using password based.
+Cryptographic api demonstration, using password cryptography approach.
 
 ## Setup
 
